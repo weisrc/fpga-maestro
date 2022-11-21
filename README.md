@@ -12,7 +12,9 @@ It also serves as an example of using https://github.com/weisrc/swrf without JSX
 2. Align the vertical black lines to the notes and rests using Ticks Per Unit input field.
 3. Copy column (channel) by clicking. The columns are further down below on the page.
 3. Paste the column into a memory file in Vivado.
-4. Use `readmemb` Verilog macro to read and load the file into a 2D register vector. `reg [5:0] data [0, <length of column - 1>]`
+4. Use `$readmemb` Verilog macro to read and load the file into a 2D register vector. `reg [5:0] data [0, <length of column - 1>]`
+
+How to use `$readmemb`: https://projectf.io/posts/initialize-memory-in-verilog/.
 
 ## Parameters
 
