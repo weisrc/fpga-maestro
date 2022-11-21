@@ -34,7 +34,7 @@ export function ParamForm() {
 		div(
 			c("col-6"),
 			ParamInput("Note Silence", 0, 1000, noteSilence),
-			ParamInput("Tick Per Pixel", 1, 32, tickPerPixel)
+			ParamInput("Ticks Per Pixel", 1, 32, tickPerPixel)
 		)
 	);
 }
